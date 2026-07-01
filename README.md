@@ -10,11 +10,11 @@ If you use Asteroid Factory in your research, please cite it as:
 ```bibtex
 @software{Hickmott_Asteroid_Factory_-_2025,
 author = {Hickmott, William and Hoettges, Kai},
-doi = {10.5281/zenodo.17981802},
+doi = {10.5281/zenodo.17957777},
 license = {MIT},
 month = dec,
 title = {{Asteroid Factory - A cross-platform tool for procedural asteroid generation and geophysical simulation}},
-url = {https://github.com/TheSpaceEgg/Asteroid_Factory},
+url = {https://github.com/whickmott/Asteroid_Factory},
 version = {1.2-pre-release},
 year = {2025}
 }

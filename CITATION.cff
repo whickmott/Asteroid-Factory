@@ -8,11 +8,11 @@ authors:
     given-names: "Kai"
     orcid: "https://orcid.org/0000-0002-0415-1688"
 title: "Asteroid Factory - A cross-platform tool for procedural asteroid generation and geophysical simulation"
-version: 1.1-pre-release
+version: 1.2-pre-release
 date-released: 2025-12-18
 url: "https://github.com/TheSpaceEgg/Asteroid_Factory"
 license: MIT
-doi: 10.5281/zenodo.17981802
+doi: 10.5281/zenodo.17957777
 keywords:
   - asteroid
   - space-science
