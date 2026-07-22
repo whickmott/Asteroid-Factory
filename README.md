@@ -9,14 +9,13 @@ This repository hosts the compiled binary releases for **Asteroid Factory**, a c
 If you use Asteroid Factory in your research, please cite it as:
 ```bibtex
 @software{Hickmott_Asteroid_Factory_-_2025,
-author = {Hickmott, William and Hoettges, Kai},
+author = {Hickmott, William and Zhou, Jiafeng and Soldini, Stefania and Hoettges, Kai},
 doi = {10.5281/zenodo.17957777},
 license = {MIT},
-month = dec,
 title = {{Asteroid Factory - A cross-platform tool for procedural asteroid generation and geophysical simulation}},
 url = {https://github.com/whickmott/Asteroid_Factory},
-version = {1.2-pre-release},
-year = {2025}
+version = {v1.0.0},
+year = {2026}
 }
 ```
 
@@ -27,8 +26,6 @@ Please download the appropriate version for your operating system from the **[Re
 | Platform | Architecture | File Description |
 | :--- | :--- | :--- |
 | **Windows** | x64 | Standalone executable (`.exe`) |
-| **macOS** | Apple Silicon (M1/M2/M3) | Native ARM64 binary |
-| **macOS** | Intel | x64 binary for older Macs |
 | **Linux** | x64 | Generic Linux binary |
 
 ---
@@ -41,21 +38,6 @@ Since these applications are distributed as standalone binaries without an insta
 1.  Download the **Windows (x64)** zip file.
 2.  Right-click the zip and select **Extract All**.
 3.  Open the folder and double-click `Asteroid Factory.exe` to launch.
-
-### 🍎 macOS
-**Important:** As this software is not notarised by the Apple App Store, you must manually allow it to run.
-
-1.  Download the zip file matching your processor (Apple Silicon or Intel).
-2.  Unzip the folder.
-3.  **Fix Permissions:**
-    * Open the **Terminal** app.
-    * Type `chmod +x ` (include the space at the end).
-    * Drag the file named `Asteroid Factory` (it has no extension) from the Finder window into the Terminal.
-    * Press **Enter**.
-4.  **First Run (Gatekeeper):**
-    * Right-click (or Control-click) the `Asteroid Factory` file in Finder.
-    * Select **Open** from the context menu.
-    * Click **Open** in the warning dialogue box.
 
 ### 🐧 Linux
 1.  Download the **Linux (x64)** zip file.
