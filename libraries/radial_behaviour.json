@@ -1,0 +1,66 @@
+{
+  "radial_group": {
+    "Ice": {
+      "inner_bias": 1,
+      "outer_bias": 0,
+      "depth_bonus": 1,
+      "surface_bonus": 0
+    },
+    "Metal": {
+      "inner_bias": 1,
+      "outer_bias": 0,
+      "depth_bonus": 0.3,
+      "surface_bonus": 0
+    },
+    "Organic": {
+      "inner_bias": 0.1,
+      "outer_bias": 1,
+      "depth_bonus": 0,
+      "surface_bonus": 1
+    },
+    "Oxide": {
+      "inner_bias": 0.8,
+      "outer_bias": 0.2,
+      "depth_bonus": 0.4,
+      "surface_bonus": 0
+    },
+    "Phyllosilicate": {
+      "inner_bias": 0.3,
+      "outer_bias": 0.7,
+      "depth_bonus": 0.2,
+      "surface_bonus": 0.3
+    },
+    "Silicate": {
+      "inner_bias": 1,
+      "outer_bias": 0.1,
+      "depth_bonus": 0.5,
+      "surface_bonus": 0
+    },
+    "Sulphide": {
+      "inner_bias": 0.9,
+      "outer_bias": 0.1,
+      "depth_bonus": 0.4,
+      "surface_bonus": 0
+    },
+    "Void": {
+      "inner_bias": 0,
+      "outer_bias": 1,
+      "depth_bonus": 0,
+      "surface_bonus": 1
+    }
+  },
+  "default": {
+    "inner_bias": 0,
+    "outer_bias": 0,
+    "depth_bonus": 0,
+    "surface_bonus": 0
+  },
+  "nonlinear_sharpening": {
+    "sharp_groups": [
+      "void",
+      "ice"
+    ],
+    "alpha": 1.5,
+    "beta": 1.5
+  }
+}

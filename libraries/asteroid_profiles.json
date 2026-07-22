@@ -1,0 +1,134 @@
+{
+  "profiles": {
+    "S": {
+      "description": "Inner-belt, relatively dry stony body",
+      "rho_target": 3700,
+      "apply_sublimation": true,
+      "corr_len_m": 1.8,
+      "use_multiscale_cov": true,
+      "corr_len_m_scales": [
+        0.5,
+        3,
+        10
+      ],
+      "cov_scale_weights": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "group_targets": {
+        "Ice": 0.05,
+        "Metal": 0.2,
+        "Organic": 0.03,
+        "Oxide": 0.02,
+        "Phyllosilicate": 0.05,
+        "Silicate": 0.55,
+        "Sulphide": 0.05
+      }
+    },
+    "C": {
+      "description": "Primitive, volatile-rich rubble pile \u2013 ice is abundant",
+      "rho_target": 1550,
+      "apply_sublimation": true,
+      "corr_len_m": 1.8,
+      "use_multiscale_cov": true,
+      "corr_len_m_scales": [
+        0.5,
+        3,
+        10
+      ],
+      "cov_scale_weights": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "group_targets": {
+        "Ice": 0.25,
+        "Metal": 0.05,
+        "Organic": 0.1,
+        "Oxide": 0.03,
+        "Phyllosilicate": 0.2,
+        "Silicate": 0.2,
+        "Sulphide": 0.05
+      }
+    },
+    "M-Type (Granular)": {
+      "description": "Metal-rich but still containing significant ice and rock",
+      "rho_target": 4500,
+      "apply_sublimation": true,
+      "corr_len_m": 1.8,
+      "use_multiscale_cov": true,
+      "corr_len_m_scales": [
+        0.5,
+        4,
+        20
+      ],
+      "cov_scale_weights": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "group_targets": {
+        "Ice": 0.1,
+        "Metal": 0.45,
+        "Organic": 0,
+        "Oxide": 0.05,
+        "Phyllosilicate": 0.07,
+        "Silicate": 0.23,
+        "Sulphide": 0.1
+      }
+    },
+    "M-Type (Mixed)": {
+      "description": "Metal-rich but still containing significant ice and rock",
+      "rho_target": 4500,
+      "apply_sublimation": true,
+      "corr_len_m": 0,
+      "use_multiscale_cov": false,
+      "corr_len_m_scales": [
+        0.5,
+        4,
+        20
+      ],
+      "cov_scale_weights": [
+        0.33,
+        0.33,
+        0.33
+      ],
+      "group_targets": {
+        "Ice": 0.1,
+        "Metal": 0.45,
+        "Organic": 0,
+        "Oxide": 0.05,
+        "Phyllosilicate": 0.07,
+        "Silicate": 0.23,
+        "Sulphide": 0.1
+      }
+    },
+    "M-Type (Macro)": {
+      "description": "Metal-rich but still containing significant ice and rock",
+      "rho_target": 4500,
+      "apply_sublimation": true,
+      "corr_len_m": 0,
+      "use_multiscale_cov": false,
+      "corr_len_m_scales": [
+        0.5,
+        4,
+        20
+      ],
+      "cov_scale_weights": [
+        0.2,
+        0.2,
+        0.6
+      ],
+      "group_targets": {
+        "Ice": 0.1,
+        "Metal": 0.45,
+        "Organic": 0,
+        "Oxide": 0.05,
+        "Phyllosilicate": 0.07,
+        "Silicate": 0.23,
+        "Sulphide": 0.1
+      }
+    }
+  }
+}
