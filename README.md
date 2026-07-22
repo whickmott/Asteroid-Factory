@@ -8,7 +8,7 @@ This repository hosts the compiled binary releases for **Asteroid Factory**, a c
 
 If you use Asteroid Factory in your research, please cite it as:
 ```bibtex
-@software{Hickmott_Asteroid_Factory_-_2025,
+@software{Hickmott_Asteroid_Factory,
 author = {Hickmott, William and Zhou, Jiafeng and Soldini, Stefania and Hoettges, Kai},
 doi = {10.5281/zenodo.17957777},
 license = {MIT},
@@ -32,7 +32,7 @@ Please download the appropriate version for your operating system from the **[Re
 
 ## 🚀 Installation & Running
 
-Since these applications are distributed as standalone binaries without an installer, you may need to set execution permissions on macOS and Linux.
+Since these applications are distributed as standalone binaries without an installer, you may need to set execution permissions on Linux.
 
 ### 🪟 Windows
 1.  Download the **Windows (x64)** zip file.
