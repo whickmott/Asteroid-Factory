@@ -7,10 +7,16 @@ authors:
   - family-names: "Hoettges"
     given-names: "Kai"
     orcid: "https://orcid.org/0000-0002-0415-1688"
+  - family-names: "Zhou"
+    given-names: "Jiafeng"
+    orcid: "https://orcid.org/0000-0002-3940-3320"
+  - family-names: "Soldini"
+    given-names: "Stefania"
+    orcid: "https://orcid.org/0000-0003-3121-3845"
 title: "Asteroid Factory - A cross-platform tool for procedural asteroid generation and geophysical simulation"
 version: v1.0.0
-date-released: 2026-07-10
-url: "https://github.com/TheSpaceEgg/Asteroid_Factory"
+date-released: 2026-07-22
+url: "https://github.com/whickmott/Asteroid_Factory"
 license: MIT
 doi: 10.5281/zenodo.17957777
 keywords:
